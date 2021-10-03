@@ -21,6 +21,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.tvshow.R
 import com.example.tvshow.data.models.Show
@@ -71,6 +72,7 @@ fun HomeScreen(
                 )
                 when (actionResult) {
                     SnackbarResult.ActionPerformed -> homeViewModel.getPopularShows()
+                    else -> Unit
                 }
             }
         } else {

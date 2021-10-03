@@ -3,6 +3,7 @@ package com.example.tvshow.ui
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -21,6 +22,7 @@ object MainDestinations {
     const val SEARCH_ROUTE = "search"
 }
 
+@ExperimentalComposeUiApi
 @ExperimentalCoilApi
 @ExperimentalAnimationApi
 @Composable
@@ -42,7 +44,7 @@ fun TVShowNavGraph(
             )
         ) {
             val tvShowId = remember {
-                it?.arguments?.getInt("tvShowId")
+                it.arguments?.getInt("tvShowId")
             }
             DetailScreen(
                 showId = tvShowId!!,
