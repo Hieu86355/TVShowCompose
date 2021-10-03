@@ -26,7 +26,7 @@ TV Show Compose is a small demo application based on modern Android tech-stacks 
 
 ## Screenshots:
 <div style="dispaly:flex">
-    <img src="https://drive.google.com/uc?export=view&id=1nNS9_-EaroeP9VYf4KwET0pACvsIhQmB" width="33%"> 
-    <img src="https://drive.google.com/uc?export=view&id=1Hx-hz1XFyf3XYhhBx1z07PMA9CDoONJO" width="33%"> 
-    <img src="https://drive.google.com/uc?export=view&id=1hYETSf1Jn9Qh6hVkW0frgxelDpiL3pYJ" width="33%"> 
+    <img src="https://drive.google.com/uc?export=view&id=1nNS9_-EaroeP9VYf4KwET0pACvsIhQmB" width="25%"> 
+    <img src="https://drive.google.com/uc?export=view&id=1Hx-hz1XFyf3XYhhBx1z07PMA9CDoONJO" width="25%"> 
+    <img src="https://drive.google.com/uc?export=view&id=1hYETSf1Jn9Qh6hVkW0frgxelDpiL3pYJ" width="25%"> 
 </div>
